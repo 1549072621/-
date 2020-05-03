@@ -1,0 +1,59 @@
+<!-- 
+    *auth：晚空
+    *QQ：1549072621
+-->
+<view>
+    <view class="top">
+        <view class="center">
+            <view class="center_top">
+                <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+                    获取头像昵称
+                </button>
+                <block wx:else>
+                    <view class="center_img" bindtap="toBaseInfo">
+                        <!-- <image src="../../static/info_img.jpg"></image> -->
+                        <open-data type="userAvatarUrl" class="user_head"></open-data>
+                    </view>
+                    <view class="center_info" bindtap="toBaseInfo">
+                        <view class="center_name">{{userInfo.nickName}}</view>
+                        <!-- <view class="center_phone">phone:{{phone}}</view> -->
+                        <view class="center_phone">{{xingbie}}</view>
+                    </view>
+                </block>
+            </view>
+            <view class="center_down">
+                <view class="center_rank" bindtap="toNone">
+                    <image class="rank_icon" src=""></image>
+                    <text class="rank_text">{{userInfo.province}}</text>
+                </view>
+                <view class="center_score" bindtap="toNone">
+                    <image class="rank_icon" src=""></image>
+                    <text class="rank_text">{{userInfo.city}}</text>
+                </view>
+            </view>
+        </view>
+        <image src='' mode='scaleToFill' class='gif-wave'></image>
+    </view>
+    <view class="about-area">
+        <mp-cells>
+            <mp-cell link hover value="使用须知" footer="" bindtap="MustSee">
+                <image slot="title" src="../../images/mustsee.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover value="关于我" footer="" bindtap="AboutMe">
+                <image slot="title" src="../../images/aboutme.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover value="关于它" footer="" bindtap="AboutIt">
+                <image slot="title" src="../../images/aboutit.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover value="联系客服" footer="" bindtap="linkFefu">
+                <image slot="title" src="../../images/kefu.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover value="加入QQ群" footer="" bindtap="linkQQ">
+                <image slot="title" src="../../images/QQ.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+        </mp-cells>
+        <view class="copyright">
+            <text>CopyRight 2015-2020 茗门爱分享</text>
+        </view>
+    </view>
+</view>

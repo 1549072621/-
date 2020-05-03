@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "mp-cells":"../../comment/cells/cells",
+    "mp-cell":"../../comment/cell/cell"
+  },
+  "navigationBarTitleText": "关于"
+}

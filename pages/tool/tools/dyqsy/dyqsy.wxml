@@ -1,0 +1,37 @@
+<!-- 
+    *auth：晚空
+    *QQ：1549072621
+-->
+<view class="main">
+    <mp-toptips msg="您还没有输入链接！" type="error" show="{{topicShow}}"></mp-toptips>
+    <view class="header">
+        <image src="https://wx.mmifx.com/images/douyin.png" mode="scaleToFill" />
+    </view>
+    <view class="section">
+        <form bindsubmit="formSubmit">
+            <view class="section_input">
+                <view class="fa fa-link"></view>
+                >
+                <input name="input" placeholder="请将链接粘贴到这里。"></input>
+            </view>
+            <view class="section_submit">
+                <view class="weui-btn-area_inline">
+                    <button formType="submit" class="weui-btn">解析</button>
+                    <button formType="reset" class="weui-btn">清空</button>
+                    <button class="weui-btn" bindtap="GoToHelp">帮助</button>
+                </view>
+            </view>
+        </form>
+    </view>
+    <!-- 结果返回值 -->
+    <view class="resouse" class="{{resultShow?'show':'hide'}}">
+        <view class="res_video">
+            <video src="{{dyvideo}}" class="video-play" />
+            <view class="btn-area">
+                <button class="copylink" bindtap="CopyLink">复制链接</button>
+               <!-- <button class="savevideo" bindtap="SaveVideo">下载视频</button>-->
+            </view>
+        </view>
+    </view>
+    <view class="foot"></view>
+</view>

@@ -1,0 +1,7 @@
+{
+   "usingComponents": {
+      "mp-toptips": "../../../../comment/toptips/toptips"
+    },
+  "navigationBarTitleText": "抖音去水印",
+  "navigationBarBackgroundColor": "#660066"
+}

@@ -1,0 +1,37 @@
+<view class="main">
+    <view class="t">
+        <image src="../../../../../images/bangzhu.png"></image>
+        如何去水印？
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        1.打开需要去水印的APP，找到分享按钮点击分享选择“复制链接”。
+        <view class="lines"></view>
+        2.打开本程序会自动获取到复制的链接，点击粘贴，然后再点击解析就可以获取到去除水印的视频了。
+    </view>
+    <view class="t">
+        <image src="../../../../../images/bangzhu.png"></image>
+        为什么我解析了视频还有水印？
+    </view>
+    <view class="line"></view>
+    <view class="c">请检查AAP中原作者上传的视频本身是否有水印，如果视频本身有水印暂时是无法去除的，抱歉!</view>
+    <view class="t">
+        <image src="../../../../../images/bangzhu.png"></image>
+        怎么下载视频？
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        本小程序不提供下载功能，您可以复制下载链接通过其他方法下载:
+        <view class="lines"></view>
+        ios用户建议使用[Docunments]或者[捷径]s下载视频(App store下载即可);
+        <view class="lines"></view>
+        安卓用户建议使用QQ浏览器下载视频;
+    </view>    
+    <view class="t">
+        <image src="../../../../../images/bangzhu.png"></image>
+        其他问题？
+    </view>
+    <view class="line"></view>
+    <view class="c">还有其他问题可以微信私聊开发者反馈哦！</view>
+    <view class="c">开发者微信：mmifx666</view>
+</view>

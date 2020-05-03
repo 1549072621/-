@@ -1,0 +1,124 @@
+/*全局*/
+@import '../../styles/weui.wxss';
+
+.main {
+    padding: 10rpx;
+}
+
+
+/*顶部logo*/
+
+.header {
+    width: 100%;
+}
+
+.sliders swiper {
+    height: 220rpx;
+    border-radius: 20rpx;
+}
+
+.sliders navigator {
+    width: 100%;
+    height: 100%;
+}
+
+.sliders image {
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+    background-color: #bbbec4;
+    height: 3rpx;
+    width: 680rpx;
+    margin-top: 15rpx;
+}
+
+
+/*
+*第一部分：输入框
+*/
+
+.section {
+    margin-top: 10rpx;
+}
+
+
+/*提示标题*/
+
+.section_title {
+    font-size: 50rpx;
+    color: #3cb371;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20rpx;
+}
+
+
+/* 
+*问题输入框-。-
+*/
+
+.section_ques {
+    font-size: 30rpx;
+    height: 100rpx;
+    padding: 10rpx;
+    border: 2rpx solid #3cb371;
+    border-radius: 20rpx;
+}
+
+
+/*
+*第二部分：两个提交按钮。
+*/
+.btn-area {
+    margin-top: 30rpx;
+}
+
+.btn-submit {
+    border-radius: 30rpx;
+}
+
+/*显示*/
+
+.show {
+    display: block;
+}
+
+
+/*
+*隐藏
+*/
+
+.hide {
+    display: none;
+}
+
+
+/*结果*/
+.section_answer {
+    margin-top: 50rpx;
+}
+
+.res_item {
+    border-radius: 20rpx;
+    padding: 5rpx 10rpx;
+    border: none;
+    margin-top: 10rpx;
+    background-color: #E6E6FA;
+}
+
+.res_question {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.res_answer {
+    font-size: small;
+}
+
+.tongji {
+    margin-top: 20rpx;
+    text-align: center;
+}

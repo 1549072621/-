@@ -1,0 +1,60 @@
+.header {
+    width: 100%;
+}
+.header image {
+    border-radius: 30rpx;
+    width: 100%;
+    margin-top: 0rpx;
+    height: 350rpx;
+}
+button{
+    color: #660066;
+    background-color: bisque;
+}
+/*真正的主题部分。。*/
+.section {
+    padding: 10rpx;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 10rpx;
+}
+/* 输入框*/
+.section .section_input {
+    margin-top: 20rpx;
+    width: 90%;
+    display: flex;
+    padding: 10rpx;
+    border: 2rpx solid #660066;
+}
+/* 按钮部分*/
+.section_submit{
+    margin-top: 30rpx;
+}
+/*
+*显示
+*/
+.show{
+    display: block;
+}
+/*
+*隐藏
+*/
+.hide{
+    display: none;
+}
+.res_video{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+}
+.video-play{
+    width: 320rpx;
+    height: 560rpx;
+}
+.btn.area{
+    width: 400rpx;
+    height: 560rpx;
+    margin-left: 30rpx;
+}

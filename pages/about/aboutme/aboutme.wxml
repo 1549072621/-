@@ -1,0 +1,19 @@
+<!-- 
+    *auth：晚空
+    *QQ：1549072621
+-->
+<view class="main">
+    <view class="t">
+        关于我
+    </view>
+    <view class="c">很高兴你来了解我</view>
+    <view class="c"><image src="https://wx.mmifx.com/images/qqheaderimg.jpg" class="headimg"/></view>
+   <view class="c">晚空</view>
+    <view class="c">头发很多的帅气小哥哥</view>
+    <view class="c">某末流二本大二学生</view>
+    <view class="c">茗门爱分享网站运营者</view>
+    <view class="c">精通C语言，PHP,JAVA,Android,Python,Go等编程语言的Hello World输出</view>
+    <view class="c">精通PS，PR,AE,WPS,Office等软件的安装与卸载！</view>
+    <view class="c">好无聊啊，没事干可以找我聊天哇！</view>
+    <view class="footline"></view>
+</view>

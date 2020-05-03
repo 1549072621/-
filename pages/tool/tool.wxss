@@ -1,0 +1,29 @@
+/* pages/tool/tool.wxss */
+/* 全局*/
+.main {
+    padding: 10rpx;
+    display: flex;
+}
+.header{
+    width: 100%;
+}
+
+.header .header_text {
+    color: black;
+    font-family: fantasy;
+}
+
+.fgLine {
+    background: #3cb371;
+    width: 100%;
+    height: 5rpx;
+}
+.section{
+    width: 100%;
+}
+.section_box image{
+    border-radius: 30rpx;
+    width: 100%;
+    margin-top: 10rpx;
+    height: 250rpx;
+}

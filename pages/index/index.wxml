@@ -1,0 +1,49 @@
+<!-- *auth：晚空
+    *QQ：1549072621 -->
+<view class="main">
+  <mp-toptips msg="您还没有输入问题！" type="error" show="{{topicShow}}"></mp-toptips>
+  <mp-toptips msg="{{tips}}" type="error" show="{{tipsShow}}"></mp-toptips>
+  <!-- 头部 -->
+  <view class="header">
+    <!-- 轮播图 -->
+    <view class="sliders">
+      <swiper autoplay="true" indicator-dots="true" circular="true" indicator-active-color="#3cb371">
+        <swiper-item>
+          <image src="https://wx.mmifx.com/images/swiper/1.png" mode="scaleToFill"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="https://wx.mmifx.com/images/swiper/2.png" mode="auto"></image>
+        </swiper-item>
+        <swiper-item>
+          <image src="https://wx.mmifx.com/images/swiper/3.png" mode="auto"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+  <!-- 主体部分 -->
+  <view class="section">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="section">
+        <view class="section_title">请在下面输入问题</view>
+        <input name="input" placeholder="请将问题复制到这里" class="section_ques" />
+      </view>
+      <view class="weui-btn-area_inline btn-area">
+        <button formType="submit" class="weui-btn btn-submit" type="primary">查询</button>
+        <button class="weui-btn btn-submit" bindtap="gotohelp" type="primary">帮助</button>
+        <button formType="reset" class="weui-btn btn-submit" type="primary">清空</button>
+      </view>
+    </form>
+    <view class="section_answer" hidden="{{resultHidden}}">
+      <!-- 存放答案部分 -->
+      <view class="res_item" wx:for="{{result}}" wx:key="resultkey">
+        <view class="res_question" bindtap="panel" data-id="{{index}}">
+          {{index+1}}:{{item.question}}
+        </view>
+        <view class="res_answer" wx:if="{{showId==index}}" bindtap="Tocopy" data-msg="{{item.answer}}">
+          答案：{{item.answer}}
+        </view>
+      </view>
+      <view class="tongji">本次共搜索到{{result.length}}个答案</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+<!-- 
+    *auth：晚空
+    *QQ：1549072621
+-->
+<view class="main">
+    <!-- 主体部分 -->
+    <view class="section">
+        <view class="section_box">
+            <view class="dy">
+                <navigator url="tools/dyqsy/dyqsy">
+                    <view class="tools_douyin">
+                        <image src="../../images/dylogo.png" mode="scaleToFill" />
+                    </view>
+                </navigator>
+            </view>
+           <!-- <view class="chaoxing">
+                <navigator url="tools/cxct/cxct">
+                    <view class="tools_choxing">
+                        <image src="../../images/chaoxing.png" mode="scaleToFill" />
+                    </view>
+                </navigator>
+            </view> -->
+        </view>
+    </view>
+    <!-- 底部 放个联系 -->
+    <view class="foot"></view>
+</view>

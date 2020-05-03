@@ -1,0 +1,45 @@
+<!-- 
+    *auth：晚空
+    *QQ：1549072621
+-->
+<view class="main">
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        起因
+    </view>
+    <view class="line"></view>
+    <view class="c">这件事要从一只蝙蝠说起。。。。</view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        发展
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        闲啊，在家就是闲啊。网课又听不进去，讲的还不如B站收藏夹里的MOOC,如果不听的话，课后习题不会啊。。又不想花钱让别人刷，只能挂着视频，课后习题百度一下，但是百度的都要开会员啊-。- 哭唧唧zzzz
+        所以就搞了这么个小程序，方便自己，便捷他人。
+    </view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        合作
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        <rich-text>本小程序第一版是免费开源的，想要获取的可以添加QQ/微信索要，态度好点，不然我不理你哦，哼唧唧^.^</rich-text>
+    </view>
+    <view class="t">
+        <image src="../../../images/bangzhu.png"></image>
+        技术支持
+    </view>
+    <view class="line"></view>
+    <view class="c">
+        emmmm，围绕这个玩意，我编写了微信小程序端、PC端、QQ机器人版、网页端。。一条龙服务，当然，不会免费，可以联系我购买。
+    </view>
+        <view class="line"></view>
+    <view class="c">
+      最后，还是希望可以的话，留个版权，保留下面一句话就好
+    </view>
+    <view class="c">
+      © 2020 茗门爱分享
+    </view>
+        <view class="footline"></view>
+</view>
